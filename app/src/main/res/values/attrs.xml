@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ValidationEditText">
+        <attr name="deleteIconSize" format="integer" />
+        <attr name="edittextSize" format="dimension" />
+        <attr name="hint" format="string" />
+        <attr name="inputType" format="integer">
+            <flag name="phone" value="3" />
+            <flag name="text" value="1" />
+            <flag name="datetime" value="4" />
+            <flag name="text_password" value="128" />
+            <flag name="numberDecimal" value="8192" />
+            <flag name="number" value="2" />
+            <flag name="textPassword" value="128" />
+        </attr>
+        <attr name="imeOption" format="string">
+            <flag name="done" value="6" />
+            <flag name="next" value="5" />
+            <flag name="go" value="2" />
+            <flag name="send" value="4" />
+        </attr>
+        <attr name="cursorDrawable" format="integer" />
+    </declare-styleable>
+</resources>
